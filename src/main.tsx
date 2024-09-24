@@ -19,8 +19,8 @@ const router = createBrowserRouter([
       }} /> }, */
       { path: "/form/:id", element: <MainForm /> },
     ]
-  }
-])
+  },
+],{basename: '/vit-dpl-tst'})
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
